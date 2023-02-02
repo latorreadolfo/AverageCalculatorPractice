@@ -119,3 +119,23 @@ calc.form .calc-result{
     justify-content: center;
     font-size: 45%
 }
+.calc-form form .btn-multy{
+    position: absolute;
+    background: teal;
+    top: 74%;
+    left: 77%;
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 20px;
+}
+.calc-form form .btn-div{
+    position: absolute;
+    background: teal;
+    top: 34%;
+    left: 77%;
+    display: flex;
+    justify-content: center;
+    font-size: 31px;
+    line-height: 20px;
+}
