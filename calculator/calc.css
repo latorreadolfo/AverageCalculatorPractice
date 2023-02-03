@@ -15,10 +15,10 @@
 .calc-form form h3{
     position: absolute;
     color: white;
-    left: 35px;
+    left: 35%;
     padding-top: 5px;
 }
-calc.form .calc-result{
+.calc-form .calc-result{
     background: white;
     width: 265px;
     padding: 10px 5px 5px 10px;
@@ -117,7 +117,7 @@ calc.form .calc-result{
     display: flex;
     line-height: 18px;
     justify-content: center;
-    font-size: 45%
+    font-size: 245%
 }
 .calc-form form .btn-multy{
     position: absolute;
@@ -138,4 +138,53 @@ calc.form .calc-result{
     justify-content: center;
     font-size: 31px;
     line-height: 20px;
+}
+.calc-form form .btn-mod{
+    background: teal;
+    position: absolute;
+    top: 34%;
+    left: 57%;
+    font-size: 22px;
+}
+.calc-form form .btn-CON{
+    position: absolute;
+    top: 34%;
+    left: 39%;
+    background: mediumvioletred;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    line-height: 19px;
+    padding: 3px 2px 3px 7px;
+}
+.calc-form form .btn-deci{
+    position: absolute;
+    top: 88%;
+    left: 36%;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    line-height: 1px;
+}
+.calc-form form .btn-equal{
+    background: green;
+    color: white;
+    position: absolute;
+    top: 88%;
+    left: 57%;
+    font-size: 35px;
+    width: 105px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    line-height: 20px;
+}
+.calc-form form .btn-clear{
+    background: red;
+    color: white;
+    position: absolute;
+    top: 34%;
+    left: 12%;
+    width: 80px;
+    font-size: 16px;
 }

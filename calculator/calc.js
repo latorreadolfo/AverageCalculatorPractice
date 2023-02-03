@@ -12,7 +12,7 @@ calcTitle.appendChild(calcContext);
 calcForm.appendChild(calcTitle);
 
 
-for(let i=0; i<10;i++){
+for(let i =0; i<10;i++){
 
     let calcNumbers = document.createElement('button');
     calcNumbers.className = "but";
@@ -80,7 +80,7 @@ clearButton.appendChild(clearText);
 calcForm.appendChild(clearButton);
 
 
-document.addEventListener('click', (e)=>{
+document.addEventListener('click',(e)=>{
     e.preventDefault();
     if(e.target.className == "but"){
         var arr = [0,1,2,3,4,5,6,7,8,9];
@@ -98,6 +98,10 @@ document.addEventListener('click', (e)=>{
     if(e.target.className == "btn-multy"){
         insert('*');
         this.backGround.style = "red";
+    }
+
+    if(e.target.classname == "btn-div"){
+        insert('/');
     }
 
     if(e.target.className == "btn-mod"){
