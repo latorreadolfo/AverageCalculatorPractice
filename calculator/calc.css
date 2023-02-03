@@ -1,13 +1,15 @@
 .calc-form{
     background: bisque;
-    padding: 50px;
+    padding: 100px;
+    background-image:url("https://media.tenor.com/YAOhbZ5GZy4AAAAd/nazar%C3%A9.gif");
+    background-size: 10%;
 }
 .calc-form form{
-    background: midnightblue;
+    background: rgba(194, 194, 209, 0.568);
     width: 360px;
     top: -100px;
     position: relative;
-    left: 20%;
+    left: 30%;
     height: 450px;
     margin: 100px 0 0 50px;
     border-radius: 15px;
